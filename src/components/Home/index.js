@@ -73,7 +73,7 @@ const Home = () => {
         className="btn btn-dark m-0"
         onClick={onClickSearchButton}
       >
-        x Search!
+        Search!
       </button>
     </div>
   );
