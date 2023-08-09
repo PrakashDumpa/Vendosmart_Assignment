@@ -7,7 +7,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const Page = ({ PageNumberFun, totalLength, currentPageNumber }) => {
   const onChangePageNumber = (event, value) => {
-    console.log("item,item", event, value);
+    // console.log("item,item", event, value);
     PageNumberFun(value);
   };
   return (
